@@ -1,5 +1,7 @@
 def suma(a, b):
     return a + b
+def potencia(a, b):
+    return a  **  b
 
 def __main__():
     print('Hola queridísimo usuario, bienvenido a la calculadora')
