@@ -28,7 +28,7 @@ def __main__():
             a = int(input('Ingrese el primer número: '))
             b = int(input('Ingrese el segundo número: '))
             print('Resultado: ' + str(suma(a, b)))
-        elif optcion == 4:
+        elif opcion == 4:
             a = int(input('Ingrese el primer número: '))
             b = int(input('Ingrese el segundo número: '))
             print('Resultado: ' + division(a,b))
