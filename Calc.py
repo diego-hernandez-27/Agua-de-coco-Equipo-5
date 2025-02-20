@@ -42,7 +42,7 @@ def __main__():
             a = int(input('Ingrese el primer número: '))
             b = int(input('Ingrese el segundo número: '))
             print('Resultado: ' + str(resta(a, b)))
-				elif opcion == 3:
+	elif opcion == 3:
             a = int(input('Ingrese el primer número: '))
             b = int(input('Ingrese el segundo número: '))
             print('Resultado: ' + str(multi(a, b)))
