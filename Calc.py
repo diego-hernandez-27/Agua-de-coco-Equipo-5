@@ -1,3 +1,10 @@
+
+def division(a,b):
+    if(b==0):
+        return "No se puede dividir por cero"
+    return a/b
+    
+
 def suma(a, b):
     return a + b
 
@@ -21,6 +28,10 @@ def __main__():
             a = int(input('Ingrese el primer número: '))
             b = int(input('Ingrese el segundo número: '))
             print('Resultado: ' + str(suma(a, b)))
+        elif optcion == 4:
+            a = int(input('Ingrese el primer número: '))
+            b = int(input('Ingrese el segundo número: '))
+            print('Resultado: ' + division(a,b))
         elif opcion == 7:
             bandera = False
         else:
