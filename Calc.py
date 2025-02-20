@@ -37,12 +37,12 @@ def __main__():
         elif opcion == 4:
             a = int(input('Ingrese el primer número: '))
             b = int(input('Ingrese el segundo número: '))
-            print('Resultado: ' + division(a,b))
+            print('Resultado: ' + str(division(a,b)))
         elif opcion == 2:
             a = int(input('Ingrese el primer número: '))
             b = int(input('Ingrese el segundo número: '))
             print('Resultado: ' + str(resta(a, b)))
-				elif opcion == 3:
+        elif opcion == 3:
             a = int(input('Ingrese el primer número: '))
             b = int(input('Ingrese el segundo número: '))
             print('Resultado: ' + str(multi(a, b)))
