@@ -8,11 +8,19 @@ def division(a,b):
 def suma(a, b):
     return a + b
 
+
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+      
 def resta(a, b):
     return a - b
   
 def multi(a,b):
 	return a * b
+
 
 def __main__():
     print('Hola queridísimo usuario, bienvenido a la calculadora')
@@ -34,6 +42,14 @@ def __main__():
             a = int(input('Ingrese el primer número: '))
             b = int(input('Ingrese el segundo número: '))
             print('Resultado: ' + str(suma(a, b)))
+
+        elif opcion == 6:
+            n = int(input('Ingrese un número para calcular su factorial: '))
+            if n < 0:
+                print('No se puede calcular el factorial de un número negativo.')
+            else:
+                print(f'El factorial de {n} es: {factorial(n)}')
+
         elif opcion == 4:
             a = int(input('Ingrese el primer número: '))
             b = int(input('Ingrese el segundo número: '))
@@ -46,6 +62,7 @@ def __main__():
             a = int(input('Ingrese el primer número: '))
             b = int(input('Ingrese el segundo número: '))
             print('Resultado: ' + str(multi(a, b)))
+
         elif opcion == 7:
             bandera = False
         else:
