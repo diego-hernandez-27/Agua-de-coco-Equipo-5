@@ -37,6 +37,8 @@ def __main__():
             print('Resultado: ' + str(multi(a, b)))
 
         elif opcion == 5:
+            a = int(input('Ingrese el primer número: '))
+            b = int(input('Ingrese el segundo número: '))
             potencia(a, b)
         elif opcion == 7:
             bandera = False
