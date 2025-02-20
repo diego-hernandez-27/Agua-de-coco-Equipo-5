@@ -1,7 +1,11 @@
 def suma(a, b):
     return a + b
-def potencia(a, b):
-    return a  **  b
+
+def resta(a, b):
+    return a - b
+  
+def multi(a,b):
+	return a * b
 
 def __main__():
     print('Hola queridísimo usuario, bienvenido a la calculadora')
@@ -23,6 +27,14 @@ def __main__():
             a = int(input('Ingrese el primer número: '))
             b = int(input('Ingrese el segundo número: '))
             print('Resultado: ' + str(suma(a, b)))
+        elif opcion == 2:
+            a = int(input('Ingrese el primer número: '))
+            b = int(input('Ingrese el segundo número: '))
+            print('Resultado: ' + str(resta(a, b)))
+				elif opcion == 3:
+            a = int(input('Ingrese el primer número: '))
+            b = int(input('Ingrese el segundo número: '))
+            print('Resultado: ' + str(multi(a, b)))
         elif opcion == 7:
             bandera = False
         else:
